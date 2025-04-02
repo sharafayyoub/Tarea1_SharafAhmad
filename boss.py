@@ -13,3 +13,4 @@ class Boss(Character):
         if self.y > 600:
             self.y = -self.rect.height
             self.x = random.randint(0, 800 - self.rect.width)
+    
